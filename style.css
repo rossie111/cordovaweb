@@ -1,7 +1,30 @@
 body {
 	background-color: black;
 	color: rgb(212, 255, 71);
+	margin: 100px;
 }
-.photos-row-1 {
+
+h1 {
+	text-align: center;
+}
+
+iframe {
+	text-align: center;
+	margin: auto;
+}
+
+.desc {
+	border: dotted;
+}
+
+.photos {
 	display: inline-block;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.photos:hover{
+	width: 50%;
+	height: 50%;
 }
