@@ -1,11 +1,21 @@
+@font-face {
+  font-family: 'Night Vibes Free Version';
+  src: url(..\font\Night Vibes Free Version.ttf") format('truetype');
+}
+
 body {
 	background-color: black;
 	color: rgb(212, 255, 71);
 	margin: 100px;
+	margin-top: -80px;
+	border-top: 0px;
+	padding-top: 0px;
 }
 
 h1 {
 	text-align: center;
+	font-size: 120px;
+	font-family: 'Night Vibes Free Version';
 }
 
 iframe {
@@ -14,7 +24,9 @@ iframe {
 }
 
 .desc {
-	border: dotted;
+	border: dashed;
+	border-radius: 50px;
+	padding: 30px;
 }
 
 .photos {
