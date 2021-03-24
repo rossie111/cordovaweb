@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Night Vibes Free Version';
   src: url(../font/Night Vibes Free Version.ttf) format('truetype');
+  font-family: 'Syne Mono', monospace;
 }
 
 body {
@@ -16,6 +17,7 @@ h1 {
 	text-align: center;
 	font-size: 120px;
 	font-family: 'Night Vibes Free Version';
+	text-transform: uppercase;
 }
 
 iframe {
@@ -27,6 +29,7 @@ iframe {
 	border: dashed;
 	border-radius: 50px;
 	padding: 30px;
+	font-family: 'Syne Mono', monospace;
 }
 
 .photos {
