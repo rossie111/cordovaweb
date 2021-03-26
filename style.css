@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Night Vibes Free Version';
   src: url(font/Night Vibes Free Version.ttf) format('truetype');
+  src: url(../font/Night Vibes Free Version.ttf) format('truetype');
   font-family: 'Syne Mono', monospace;
 }
 
