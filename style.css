@@ -1,8 +1,9 @@
-@font-face {
+/*@font-face {
   font-family: 'Night Vibes Free Version';
   src: url(../font/Night Vibes Free Version.ttf) format('truetype');
   font-family: 'Syne Mono', monospace;
-}
+} */
+
 
 body {
 	background-color: black;
@@ -16,8 +17,10 @@ body {
 h1 {
 	text-align: center;
 	font-size: 120px;
-	font-family: 'Night Vibes Free Version';
 	text-transform: uppercase;
+	font-family: 'Karla', sans-serif;
+    color: #FF0000;
+    text-shadow: 0 0 3px #242222;
 }
 
 iframe {
