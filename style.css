@@ -20,7 +20,15 @@ h1 {
 	text-transform: uppercase;
 	font-family: 'Karla', sans-serif;
     color: #FF0000;
-    text-shadow: 0 0 3px #242222;
+    text-shadow: 9px -3px 8px #3f3c3b;
+    letter-spacing: -0.3rem;
+    margin: 95px -30px;
+}
+
+#spiderweb {
+	color: rgb(212, 255, 71);
+	margin: 10px;
+	/*display: inline*/;
 }
 
 iframe {
