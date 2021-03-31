@@ -54,7 +54,14 @@ iframe {
 	display: flex;
 	justify-content: space-around;
 }
+img {
+	width: 100%;
+}
 
 figcaption {
-  display: none;
+  display: flex;
+}
+
+.photo.row-0 figure figcaption {
+	text-align: center;
 }
