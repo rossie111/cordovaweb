@@ -12,6 +12,10 @@ body {
 	margin-top: -80px;
 	border-top: 0px;
 	padding-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-sizing: border-box;
 }
 
 h1 {
@@ -31,9 +35,8 @@ h1 {
 	/*display: inline*/;
 }
 
-iframe {
-	text-align: center;
-	margin: auto;
+iframe { 
+	height: 630px;
 }
 
 .desc {
@@ -45,9 +48,25 @@ iframe {
 }
 
 .photos {
-	display: inline-block;
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
 }
 
+figure {
+  border: 1px none solid;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption{
+  display: none;
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+  flex-direction: row;
+}
