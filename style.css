@@ -55,18 +55,6 @@ iframe {
 	justify-content: space-around;
 }
 
-figure {
-  border: 1px none solid;
-  padding: 4px;
-  margin: auto;
-}
-
-figcaption{
+figcaption {
   display: none;
-  background-color: black;
-  color: white;
-  font-style: italic;
-  padding: 2px;
-  text-align: center;
-  flex-direction: row;
 }
