@@ -12,6 +12,7 @@ body {
 	margin-top: -80px;
 	border-top: 0px;
 	padding-top: 0px;
+	margin-bottom: 10px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
