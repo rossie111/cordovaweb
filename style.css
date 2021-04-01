@@ -59,9 +59,14 @@ img {
 }
 
 figcaption {
-  display: flex;
+  font-family: 'Syne Mono', monospace;
+  font-size: 150%;
 }
 
-.photo.row-0 figure figcaption {
+.photos.row-0 figure figcaption {
 	text-align: center;
+}
+
+.row-1 figure{
+	flex: 1;
 }
