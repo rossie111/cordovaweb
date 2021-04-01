@@ -8,7 +8,7 @@
 body {
 	background-color: black;
 	color: rgb(212, 255, 71);
-	margin: 100px;
+	margin: 200px;
 	margin-top: -80px;
 	border-top: 0px;
 	padding-top: 0px;
@@ -69,4 +69,10 @@ figcaption {
 
 .row-1 figure{
 	flex: 1;
+}
+
+.contact_info {
+	font-family: 'Syne Mono', monospace;
+	font-size: 100%;
+	text-align: center;
 }
