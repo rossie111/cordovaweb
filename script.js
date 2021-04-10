@@ -7,10 +7,11 @@ function setup() {
 
 function draw() {
 
-	strokeWeight(35);
+	strokeWeight(1);
 
    //stroke(random(255), random(255), random(255));
-   stroke(random(100,255), random(100,255), random(100,255));
+   stroke(212, 255, 71);
+   //stroke(random(100,255), random(100,255), random(100,255));
 
    line(mouseX, mouseY, pmouseX, pmouseY);
 
