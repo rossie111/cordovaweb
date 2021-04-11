@@ -10,7 +10,7 @@ function draw() {
 	strokeWeight(1);
 
    //stroke(random(255), random(255), random(255));
-   stroke(212, 255, 71);
+   stroke(112, 253, 76);
    //stroke(random(100,255), random(100,255), random(100,255));
 
    line(mouseX, mouseY, pmouseX, pmouseY);
