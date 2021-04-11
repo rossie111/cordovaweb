@@ -55,7 +55,7 @@ iframe {
 	box-sizing: border-box;
 	display: flex;
 	justify-content: space-around;
-	flex-wrap: wrap;
+	/*flex-wrap: wrap;*/
 }
 img {
 	width: 100%;
@@ -93,6 +93,7 @@ figcaption {
 	font-family: 'Syne Mono', monospace;
 	font-size: 100%;
 	text-align: center;
+	margin: 140px;
 }
 
 #overlap{
