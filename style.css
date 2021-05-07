@@ -4,14 +4,16 @@
   font-family: 'Syne Mono', monospace;
 } */
 
+*{
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
 
 body {
 	background-color: black;
 	color: rgb(212, 255, 71);
-	margin: 200px;
 	margin-top: -80px;
 	border-top: 0px;
-	padding-top: 0px;
 	margin-bottom: 10px;
 	display: flex;
 	flex-direction: column;
@@ -27,17 +29,19 @@ h1 {
     color: #FF0000;
     text-shadow: 9px -3px 8px #3f3c3b;
     letter-spacing: -0.3rem;
-    margin: 95px -30px;
+    margin: 50px 0px 30px;
 }
 
 #spiderweb {
 	color: rgb(212, 255, 71);
-	margin: 10px;
+	margin: 30px auto -15px;
+	font-size: 30px;
 	/*display: inline*/;
 }
 
 iframe { 
 	height: 630px;
+	margin: -3rem 1rem;
 }
 
 .desc {
