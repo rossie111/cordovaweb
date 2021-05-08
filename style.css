@@ -33,13 +33,13 @@ h1 {
 
 #spiderweb {
 	color: rgb(212, 255, 71);
-	margin: 30px auto -15px;
+	margin: 20px auto -15px;
 	font-size: 30px;
 	/*display: inline*/;
 }
 
 iframe { 
-	height: 630px;
+	height: 600px;
 	margin: -3rem 1rem;
 }
 
