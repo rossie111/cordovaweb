@@ -33,9 +33,9 @@ h1 {
 
 #spiderweb {
 	color: rgb(212, 255, 71);
-	margin: 20px auto -15px;
+	margin: 65px auto -60px;
 	font-size: 30px;
-	/*display: inline*/;
+	text-align: center;
 }
 
 iframe { 
