@@ -1,0 +1,188 @@
+body {
+	background-color: rgb(222, 229, 246);
+	color: rgb(30, 146, 235);
+	margin: 200px;
+	margin-top: -80px;
+	border-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	font-size: 120px;
+	text-transform: uppercase;
+	font-family: 'Karla', sans-serif;
+    color: #FF0000;
+    text-shadow: 9px -3px 8px #3f3c3b;
+    letter-spacing: -0.3rem;
+    margin: 95px -30px;
+}
+
+.header{
+	width: 100%;
+	height: 700px;
+	background-image: url(photos/RLD_CordovaWeb_PhotoofSketching_001.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+body.darkmode {
+	background: black;
+	color: rgb(212, 255, 71);
+
+	/*	redefine a CSS variable */
+	--accent-color: rgb(0,255,0);
+}
+
+body.darkmode button{
+	color: white;
+
+.desc{
+	font-family: 'Syne Mono', monospace;
+}
+
+.photos{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: .05fr 1fr 1fr 1fr 1fr 1fr;
+	/*minmx: (1555px, 3050px);*/
+	height: 3050px;
+	width: 100%;
+	column-gap: 1.5rem;
+	row-gap: 10px;
+}
+
+.lisa{
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 2 ;
+	place-self: stretch;
+}
+
+.rossie{
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 3 ;
+	place-self: stretch;
+}
+
+.lisa1{
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 2 ;
+	background-image: url('photos/LisaRoach_1min.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	place-self: stretch;
+}
+
+.rossie1 { 
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	background-image: url('photos/RLD_CordovaWeb_Sketch_1min.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	place-self: stretch;
+}
+
+.lisa2{
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 2 ;
+	background-image: url('photos/LisaRoach_2min.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.rossie2 { 
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	background-image: url('photos/RLD_CordovaWeb_Sketch_2min.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.lisa5{
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 1;
+	grid-column-end: 2 ;
+	background-image: url('photos/LisaRoach_5min.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.rossie5 { 
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	background-image: url('photos/RLD_CordovaWeb_Sketch_5min.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.lisa10{
+	grid-row-start: 5;
+	grid-row-end: 6;
+	grid-column-start: 1;
+	grid-column-end: 2 ;
+	background-image: url('photos/LisaRoach_10min.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.rossie10 { 
+	grid-row-start: 5;
+	grid-row-end: 6;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	background-image: url('photos/RLD_CordovaWeb_Sketch_10min.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.lisanolimit{
+	grid-row-start: 6;
+	grid-row-end: 7;
+	grid-column-start: 1;
+	grid-column-end: 2 ;
+	background-image: url('photos/LisaRoach_nolimit.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.rossienolimit{ 
+	grid-row-start: 6;
+	grid-row-end: 7;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	background-image: url('photos/RLD_CordovaWeb_Sketch_nolimit.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+h2 {
+	text-align: center;
+	font-size: 80px;
+	text-transform: uppercase;
+	font-family: 'Karla', sans-serif;
+    color: #FF0000;
+    text-shadow: 9px -3px 8px #3f3c3b;
+    letter-spacing: -0.3rem;
+    margin: 95px -30px;
+}
+
