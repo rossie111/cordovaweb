@@ -51,6 +51,23 @@ h1 {
 	line-height: 1.1rem;
 }
 
+ul{
+	position: fixed;
+	bottom: 0;
+ 	right: 0;
+ 	width: 100vw;
+ 	display: inline-flex;
+ 	list-style: none;
+ 	text-transform: lowercase;
+}
+
+li{
+	display: inline-block;
+	flex: 5;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
 
 h2{
 	text-align: center;
