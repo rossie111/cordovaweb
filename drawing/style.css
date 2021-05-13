@@ -25,6 +25,11 @@ body {
 	row-gap: 10px;
 	overflow: scroll;
 	text-align: center;
+	margin-bottom: 10vh;
+}
+
+.item{
+	height: 100%;
 }
 
 .lisa{
