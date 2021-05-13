@@ -1,51 +1,30 @@
 body {
-	background-color: rgb(222, 229, 246);
-	color: rgb(30, 146, 235);
-	margin: 200px;
-	margin-top: -80px;
-	border-top: 0px;
+	background-color: black;
+	color: rgb(212, 255, 71);
+	margin: 10%;
+	border: auto;
 	padding-top: 0px;
-	margin-bottom: 10px;
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	column-gap: 1%;
 	justify-content: center;
 	box-sizing: border-box;
-}
-
-h1 {
-	text-align: center;
-	font-size: 120px;
-	text-transform: uppercase;
-	font-family: 'Karla', sans-serif;
-    color: #FF0000;
-    text-shadow: 9px -3px 8px #3f3c3b;
-    letter-spacing: -0.3rem;
-    margin: 95px -30px;
-}
-
-.header{
-	width: 100%;
-	height: 700px;
-	background-image: url(photos/RLD_CordovaWeb_PhotoofSketching_001.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-}
-
-
-.desc{
 	font-family: 'Syne Mono', monospace;
+	position: fixed;
 }
 
-.photos{
+
+/*.photos{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: .05fr 1fr 1fr 1fr 1fr 1fr;
 	/*minmx: (1555px, 3050px);*/
-	height: 3050px;
+/*	height: 3050px;
 	width: 100%;
 	column-gap: 1.5rem;
 	row-gap: 10px;
-}
+}*/
 
 .lisa{
 	grid-row-start: 1;
