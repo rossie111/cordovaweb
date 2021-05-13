@@ -14,8 +14,8 @@ body {
 
 
 .photos{
-  display: grid;
-	grid-template-columns: 1fr 1fr;
+  	display: grid;
+  	grid-template-columns: 1fr 1fr;
 	grid-template-rows: .05fr 1fr 1fr 1fr 1fr 1fr;
 	column-gap: 1%;
 	/*minmx: (1555px, 3050px);*/
@@ -24,6 +24,7 @@ body {
 	column-gap: 1.5rem;
 	row-gap: 10px;
 	overflow: scroll;
+	text-align: center;
 }
 
 .lisa{
