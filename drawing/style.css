@@ -4,27 +4,23 @@ body {
 	margin: 10%;
 	border: auto;
 	padding-top: 0px;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
-	column-gap: 1%;
 	justify-content: center;
 	box-sizing: border-box;
 	font-family: 'Syne Mono', monospace;
-	position: fixed;
 }
 
 
-/*.photos{
-	display: grid;
+.photos{
+  display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: .05fr 1fr 1fr 1fr 1fr 1fr;
+	column-gap: 1%;
 	/*minmx: (1555px, 3050px);*/
-/*	height: 3050px;
+	height: 3050px;
 	width: 100%;
 	column-gap: 1.5rem;
 	row-gap: 10px;
-}*/
+}
 
 .lisa{
 	grid-row-start: 1;
