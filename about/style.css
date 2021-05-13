@@ -59,6 +59,7 @@ ul{
  	display: inline-flex;
  	list-style: none;
  	text-transform: lowercase;
+ 	font-size: 20px;
 }
 
 li{
