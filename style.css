@@ -47,7 +47,7 @@ ul{
  	list-style: none;
  	text-transform: lowercase;
  	margin: 1rem auto;
- 	font-size: 22px;
+ 	font-size: normal;
 }
 
 li{
