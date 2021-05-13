@@ -69,6 +69,23 @@ li{
 	text-align: center;
 }
 
+a:link /*a normal, unvisited link*/{
+	color: inherit;
+	text-decoration: none;
+}
+a:visited /*a link the user has visited*/{
+	color: inherit;	
+	text-decoration: none;
+}
+a:hover /*a link when the user mouses over it*/{
+	color: #FF0000;
+	text-decoration: none;
+}
+a:active /*a link the moment it is clicked*/{
+	color:inherit;
+	text-decoration: none;
+}
+
 h2{
 	text-align: center;
 	font-size: 80px;
