@@ -46,8 +46,8 @@ ul{
  	display: inline-flex;
  	list-style: none;
  	text-transform: lowercase;
- 	margin: 1rem auto;
- 	font-size: normal;
+ 	margin: 1vh auto;
+ 	font-size: large;
 }
 
 li{
