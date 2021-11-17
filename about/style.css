@@ -4,9 +4,6 @@
   font-family: 'Syne Mono', monospace;
 } */
 
-*{
-
-}
 
 body {
 	background-color: black;
@@ -59,13 +56,15 @@ ul{
  	display: inline-flex;
  	list-style: none;
  	text-transform: lowercase;
- 	
+ 	margin: 1vh auto;
+ 	font-size: large;
+ 	flex-wrap:  wrap;
 }
 
 li{
 	display: inline-block;
 	flex: 5;
-	margin: 0;
+	margin: 0 auto 7px;
 	padding: 0;
 	text-align: center;
 }
@@ -106,4 +105,24 @@ a:link, a:visited{
 
 a:hover, a:active{
 	color: #FF0000;
+}
+
+@media screen and (max-width: 450px){
+	body{
+		margin: 0;
+	}
+
+	li {
+		flex: 1;
+		margin:  10px 22px;
+	}
+
+	.desc{
+		display: block;
+    overflow-y: scroll;
+    margin-bottom: 10vh;
+    position: relative;
+    scroll-behavior: smooth;
+    height: 65vh;
+	}
 }
