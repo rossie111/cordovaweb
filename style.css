@@ -1,5 +1,5 @@
 *{
-	margin: 1rem 4.5rem;
+	
 }
 
 body {
@@ -13,6 +13,7 @@ body {
 	justify-content: center;
 	box-sizing: border-box;
 	font-family: 'Syne Mono', monospace;
+	margin: 1rem 4.5rem;
 }
 
 h1 {
@@ -33,10 +34,10 @@ h1 {
 	text-align: center;
 }
 
-iframe { 
+/*iframe { 
 	height: 555px;
 	margin: -3rem 5rem;
-}
+}*/
 
 ul{
 	position: fixed;
@@ -48,6 +49,7 @@ ul{
  	text-transform: lowercase;
  	margin: 1vh auto;
  	font-size: large;
+ 	flex-wrap:  wrap;
 }
 
 li{
@@ -85,6 +87,44 @@ h2{
     text-shadow: 9px -3px 8px #3f3c3b;
     letter-spacing: -0.3rem;
     margin: 95px -30px;
+}
+
+.iframe-container{
+	height: 555px;
+	width: 800px;
+	margin: auto;
+}
+
+iframe{
+	width:  100%;
+	height:  100%;
+}
+
+@media screen and (max-width: 950px){
+	.iframe-container{
+		height: 400px;
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 450px){
+	body{
+		margin: 0;
+	}
+
+	#spiderweb{
+		margin: auto;
+	}
+
+	h1 {
+		font-size: 500%;
+		margin: auto;
+	}
+
+	li {
+		flex: 1;
+		margin:  10px 22px;
+	}
 }
 
 /*@media screen and (max-width: 480px){ 
