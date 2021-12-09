@@ -124,5 +124,7 @@ a:hover, a:active{
     position: relative;
     scroll-behavior: smooth;
     height: 65vh;
+		font-size: 450%;
+		margin: auto;
 	}
 }
