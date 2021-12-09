@@ -115,7 +115,7 @@ iframe{
 	box-sizing: border-box;
 	width: 80vw;
 	height: 80vh; 
-/*  	flex: 1;*/
+	display: inline-block;
   	margin: 5vh auto 6vh;
 	line-height: 1.1rem;
 	overflow-y: scroll;
