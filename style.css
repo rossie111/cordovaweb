@@ -125,9 +125,20 @@ iframe{
   	scrollbar-width: thin;
 }
 
+#process{
+	border: auto;
+	padding-top: 0px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+		/*grid-template-rows: 1fr 1fr;*/
+	column-gap: 1%;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
 .header{
 	width: 100%;
-	background-image: url('process/photos/RLD_CordovaWeb_PhotoofSketching_001.jpg');
+	background-image: url(process/photos/RLD_CordovaWeb_PhotoofSketching_001.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
