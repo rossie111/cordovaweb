@@ -7,8 +7,7 @@ body {
 	/*! justify-content: center; */
 	box-sizing: border-box;
 	font-family: 'Syne Mono', monospace;
-	/*! width: 80vw; */
-	/*! height: 80vh; */
+	/*! width: 80vw; */	/*! height: 80vh; */
 }
 
 .photobox{
