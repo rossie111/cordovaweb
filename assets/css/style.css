@@ -71,6 +71,7 @@ p, .email {
 	background: black;
 }
 
+
 .buttons {
 	margin-top: 40px;
 	text-align: center;
@@ -84,7 +85,7 @@ p, .email {
 
 iframe {
 	width: 100%;
-	height: 600px;
+	height: 10%;
 }
 
 button {
