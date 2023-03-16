@@ -1,2 +1,0 @@
-# process
-Cordova Web Process
