@@ -3,23 +3,27 @@ var changeImage = document.getElementById("imgClickAndChange");
 
 imgClickAndChange.onclick = function(){
 	if(counter == 0){
-		changeImage.src = "./assets/images/drawings/lisa/LisaRoach_1min.jpg";
+		changeImage.src = "./assets/images/cordova-web-polaroid-00.jpg";
 		counter++;
 	}
 	else if(counter == 1){
-		changeImage.src = "./assets/images/drawings/lisa/LisaRoach_2min.jpg";
+		changeImage.src = "./assets/images/cordova-web-polaroid-01.jpg";
 		counter++;
 	}
 	else if(counter == 2){
-		changeImage.src = "./assets/images/drawings/lisa/LisaRoach_5min.jpg";
+		changeImage.src = "./assets/images/cordova-web-polaroid-02.jpg";
 		counter++;
 	}
 	else if(counter == 3){
-		changeImage.src = "./assets/images/drawings/lisa/LisaRoach_10min.jpg";
+		changeImage.src = "./assets/images/cordova-web-polaroid-03.jpg";
 		counter++;
 	}
 	else if(counter == 4){
-		changeImage.src = "./assets/images/drawings/lisa/LisaRoach_nolimit.jpg";
+		changeImage.src = "./assets/images/cordova-web-polaroid-04.jpg";
+		counter = 0;
+	}
+	else if(counter == 5){
+		changeImage.src = "./assets/images/cordova-web-polaroid-05.jpg";
 		counter = 0;
 	}
 };
