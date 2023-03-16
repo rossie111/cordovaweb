@@ -137,6 +137,10 @@ h1 {
 	text-align: center
 }
 
+p, .click {
+	text-align: center;
+}
+
 .footer {
 	position: fixed;
 	margin: 40px;
