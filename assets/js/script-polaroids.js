@@ -15,15 +15,15 @@ imgClickAndChange.onclick = function(){
 		counter++;
 	}
 	else if(counter == 3){
-		changeImage.src = "./assets/images/cordova-web-polaroid-03.jpg";
+		changeImage.src = "./assets/images/cordova-web-polaroids-03.jpg";
 		counter++;
 	}
 	else if(counter == 4){
-		changeImage.src = "./assets/images/cordova-web-polaroid-04.jpg";
+		changeImage.src = "./assets/images/cordova-web-polaroids-04.jpg";
 		counter = 0;
 	}
 	else if(counter == 5){
-		changeImage.src = "./assets/images/cordova-web-polaroid-05.jpg";
+		changeImage.src = "./assets/images/cordova-web-polaroids-05.jpg";
 		counter = 0;
 	}
 };
