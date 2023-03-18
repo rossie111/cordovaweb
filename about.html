@@ -1,50 +1,34 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	
 	<meta charset="utf-8">
-	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
 	<title>Cordova Web: About</title>
-	
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
 </head>
-
 <body>
-	
-	<div class="site-container">
-		
-		<!-- <a href="index.html" class="spider-web">&#128376;</a> -->
-		
-		<div class="nav">
-			
-			<a class="nav-item" href="index.html">Cordova Web |</a>
 
-			<a class="nav-item" href="spiderweb.html">~Webs~ |</a>
+<div class="site-wrapper">
+	<div class="menu">
+		<a class="menu-item" href="index.html">Cordova Web</a>
+		<a class="menu-item" href="spiderweb.html">~Webs~</a>
+		<a class="menu-item" id="current-page" href="about.html">About</a>
+		<a class="menu-item" href="social-practice.html">Social Practice</a>
+		<a class="menu-item" href="drawings.html">Drawings</a>
+		<a class="menu-item" href="web-map.html">Cordova Web Map</a>
+		<a class="menu-item" href="photos.html">Photos</a>
+		<a class="menu-item" href="connect.html">Connect with Us</a>
+	</div>
 
-			<a class="nav-item" id="current-page" href="about.html"> About |</a>
+	<table border="0" cellpadding="15" cellspacing="3">
+		<tbody>
+			<!-- Previous Page -->
+			<td class="side-btn">
+				<button onclick="previousPage()"><</button>
+			</td>
 
-			<a class="nav-item" href="social-practice.html"> Social Practice |</a>
-
-			<a class="nav-item" href="drawings.html"> Drawings |</a>
-			
-			<a class="nav-item" href="web-map.html"> Map |</a>
-			
-			<a class="nav-item" href="photos.html"> Photos |</a>
-			
-			<a class="nav-item" href="connect.html"> Connect </a>
-		
-		</div>
-
-		
-		<div class="slide-container">
-			
-			<div class="slides" id="about">
-
+			<!-- Center Content -->
+			<td class="main-content">
 				<h1>ABOUT</h1>
 				
 			
@@ -56,24 +40,25 @@
 				<p>Situated in District 11, Cordova Market sits on the border of the Excelsior and Crocker Amazon neighborhoods.  This area has remained largely untouched by gentrification and speculative realtors, and continues to be a working-class neighborhood with a majority of persons of color (POC) and immigrant residents.  We are proud to have a large Asian, Pacific Islander and Latino community that contribute to the multicultural vibrance of this area.  Cordova Web highlights the lived experiences of these San Franciscans that are largely absent from cultural narratives of the SF Bay/Silicon Valley region.</p>
 
 				<p>The spatial and social limitations highlighted during the pandemic forced us to ponder what and who is essential for human life.  Neighborhood food markets provide access to essential supplies in emergency situations and thus provide safety and cultivate a culture of care. This web of connection and care is often invisible.  Cordova Market provides a physical intersection for these encounters of reciprocity and exchange. Cordova Web aims to cast a wide net of influence and transform neighborhood relations between people and physical space. It is the first step in a larger project of building relationships between food sovereignty advocates, artists, community organizers and neighborhood residents through community art practice. </p>
-			
-			</div>
-		
-		</div>
+			</td>
 
-		<!-- <div class="buttons">
-			<a class="btn-link" href="index.html">
-				<button class="previous"><</button>
-			</a>
-			<a class="btn-link" href="social-practice.html">
-				<button class="next">></button>
-			</a>
-		</div> -->
+			<!-- Next Page -->
+			<td class="side-btn">
+				<button onclick="nextPage()">></button>
+			</td>
+		</tbody>
+	</table>
+</div>
 
-	</div>
+<script type="text/javascript">
+	function previousPage(){
+		window.location.href = "spiderweb.html";
+	}
 
-
+	function nextPage(){
+		window.location.href = "social-practice.html";
+	}
+</script>
 
 </body>
-
 </html>
