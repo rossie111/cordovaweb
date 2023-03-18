@@ -1,50 +1,34 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	
 	<meta charset="utf-8">
-	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
 	<title>Cordova Web: Drawings</title>
-	
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
 </head>
-
 <body>
-	
-	<div class="site-container">
-		
-		<!-- <a href="index.html" class="spider-web">&#128376;</a> -->
-		
-		<div class="nav">
-			
-			<a class="nav-item" href="index.html">Cordova Web |</a>
 
-			<a class="nav-item" href="spiderweb.html">~Webs~ |</a>
+<div class="site-wrapper">
+	<div class="menu">
+		<a class="menu-item" href="index.html">Cordova Web</a>
+		<a class="menu-item" href="spiderweb.html">~Webs~</a>
+		<a class="menu-item" href="about.html">About</a>
+		<a class="menu-item" href="social-practice.html">Social Practice</a>
+		<a class="menu-item" id="current-page" href="drawings.html">Drawings</a>
+		<a class="menu-item" href="web-map.html">Cordova Web Map</a>
+		<a class="menu-item" href="photos.html">Photos</a>
+		<a class="menu-item" href="connect.html">Connect with Us</a>
+	</div>
 
-			<a class="nav-item" href="about.html"> About |</a>
+	<table border="0" cellpadding="15" cellspacing="3">
+		<tbody>
+			<!-- Previous Page -->
+			<td class="side-btn">
+				<button onclick="previousPage()"><</button>
+			</td>
 
-			<a class="nav-item" href="social-practice.html"> Social Practice |</a>
-
-			<a class="nav-item" id="current-page" href="drawings.html"> Drawings |</a>
-			
-			<a class="nav-item" href="web-map.html"> Map |</a>
-			
-			<a class="nav-item" href="photos.html"> Photos |</a>
-			
-			<a class="nav-item" href="connect.html"> Connect </a>
-		
-		</div>
-
-		
-		<div class="slide-container">
-		
-			<div class="slides" id="drawings">
-				
+			<!-- Center Content -->
+			<td class="main-content">
 				<h1>DRAWINGS</h1>
 				
 				<p class="click">Click drawings!</p>
@@ -58,25 +42,27 @@
 				<p>Next, we created an interactive piece. On November 3rd, 2020, we hosted a "ritual" that involved community members "mapping" their connection to Cordova Market on a neighborhood map with glow in the dark yarn, creating a "community web". The ritual illustrates our local interdependence as we imagine new ways to weave together food, space, and community engagement in a politics of care.</p>
 
 				<p>Sidewalk sketching, video interviews, photographing, and a community ritual in public spaces are important tools for mapping engagement with our neighbors. Cordova Web explores how to be involved in one's community, what our role as artists are, and what the role of a neighborhood plays in a city that is being gentrified, and continues to change throughout the pandemic. </p>
-			</div>
+			</td>
 
-		</div>
+			<!-- Next Page -->
+			<td class="side-btn">
+				<button onclick="nextPage()">></button>
+			</td>
+		</tbody>
+	</table>
+</div>
 
-		<!-- <div class="buttons">
-			<a class="btn-link" href="social-practice.html">
-				<button class="previous"><</button>
-			</a>
-			<a class="btn-link" href="web-map.html">
-				<button class="next">></button>
-			</a>
-		</div> -->
-	
-	</div>
-
-	
 <script type="text/javascript" src="./assets/js/script.js"></script>
 
+<script type="text/javascript">
+	function previousPage(){
+		window.location.href = "social-practice.html";
+	}
+
+	function nextPage(){
+		window.location.href = "web-map.html";
+	}
+</script>
 
 </body>
-
 </html>
