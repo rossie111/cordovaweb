@@ -1,77 +1,59 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	
 	<meta charset="utf-8">
-	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
 	<title>Cordova Web: Social Practice</title>
-	
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
 </head>
-
 <body>
-	
-	<div class="site-container">
-		
-		<!-- <a href="index.html" class="spider-web">&#128376;</a> -->
-		
-		<div class="nav">
-			
-			<a class="nav-item" href="index.html">Cordova Web |</a>
 
-			<a class="nav-item" href="spiderweb.html">~Webs~ |</a>
+<div class="site-wrapper">
+	<div class="menu">
+		<a class="menu-item" href="index.html">Cordova Web</a>
+		<a class="menu-item" href="spiderweb.html">~Webs~</a>
+		<a class="menu-item" href="about.html">About</a>
+		<a class="menu-item" id="current-page" href="social-practice.html">Social Practice</a>
+		<a class="menu-item" href="drawings.html">Drawings</a>
+		<a class="menu-item" href="web-map.html">Cordova Web Map</a>
+		<a class="menu-item" href="photos.html">Photos</a>
+		<a class="menu-item" href="connect.html">Connect with Us</a>
+	</div>
 
-			<a class="nav-item" id="current-page" href="about.html"> About |</a>
+	<table border="0" cellpadding="15" cellspacing="3">
+		<tbody>
+			<!-- Previous Page -->
+			<td class="side-btn">
+				<button onclick="previousPage()"><</button>
+			</td>
 
-			<a class="nav-item" id="current-page" href="social-practice.html"> Social Practice |</a>
-
-			<a class="nav-item" href="drawings.html"> Drawings |</a>
-			
-			<a class="nav-item" href="web-map.html"> Map |</a>
-			
-			<a class="nav-item" href="photos.html"> Photos |</a>
-			
-			<a class="nav-item" href="connect.html"> Connect </a>
-		
-		</div>
-
-		
-		<div class="slide-container">
-		
-			<div class="slides" id="social-practice">
-				
+			<!-- Center Content -->
+			<td class="main-content">
 				<h1>SOCIAL PRACTICE</h1>
 				
 			
 				<p>As food sovereignty organizers, experimental geographers, and visual artists, our framework is rooted in thinking critically about the production of public space/land and the potential for art to be transformative.</p>
 
 				<p>Social practice as a methodology for working in art is used to develop direct relationships to the people in our physical surroundings and engage in conversations of our collective and direct lived experiences that have been influenced by the pandemic, climate change, corporatism, and international neoliberal trade policies. Cordova Web enacts community rituals in proximity to a local market as invitation to consider the role art, public space, food, and community as essential to neighborhood well-being. This project interlinks food sovereignty advocates, artists, community organizers and neighborhood residents. Cordova Web reveals our local interdependence as we imagine new ways to weave together food, space, and community engagement </p>
-			
-			</div>
+			</td>
 
-		
-		</div>
+			<!-- Next Page -->
+			<td class="side-btn">
+				<button onclick="nextPage()">></button>
+			</td>
+		</tbody>
+	</table>
+</div>
 
-		<!-- <div class="buttons">
-			<a class="btn-link" href="about.html">
-				<button class="previous"><</button>
-			</a>
-			<a class="btn-link" href="drawings.html">
-				<button class="next">></button>
-			</a>
-		</div> -->
+<script type="text/javascript">
+	function previousPage(){
+		window.location.href = "about.html";
+	}
 
-
-	</div>
-
-
-
+	function nextPage(){
+		window.location.href = "drawings.html";
+	}
+</script>
 
 </body>
-
 </html>
