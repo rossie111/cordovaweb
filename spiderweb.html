@@ -1,57 +1,38 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
-	<meta charset="utf-8">	
-
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>Cordova Web</title>
-
+	<title>Cordova Web: Spiderweb</title>
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
 </head>
-
 <body>
-	<div class="site-container">
 
+<div class="site-wrapper">
+	<div class="menu">
+		<a class="menu-item" href="index.html">Cordova Web</a>
+		<a class="menu-item" id="current-page" href="spiderweb.html">~Webs~</a>
+		<a class="menu-item" href="about.html">About</a>
+		<a class="menu-item" href="social-practice.html">Social Practice</a>
+		<a class="menu-item" href="drawings.html">Drawings</a>
+		<a class="menu-item" href="web-map.html">Cordova Web Map</a>
+		<a class="menu-item" href="photos.html">Photos</a>
+		<a class="menu-item" href="connect.html">Connect with Us</a>
+	</div>
 
-		<!-- wwww.alanwood.net/unicode/explorer.html -->
-		<!-- <a href="index.html" class="spider-web">&#128376;</a> -->
-		
-		<div class="nav">
+	<table border="0" cellpadding="15" cellspacing="3">
+		<tbody>
+			<!-- Previous Page -->
+			<td class="side-btn">
+				<button onclick="previousPage()"><</button>
+			</td>
 
-			<a class="nav-item" href="index.html">Cordova Web |</a>
-
-			<a class="nav-item" id="current-page" href="spiderweb.html">~Webs~ |</a>
-
-			<a class="nav-item" id="current-page" href="about.html"> About |</a>
-
-			<a class="nav-item" href="social-practice.html"> Social Practice |</a>
-
-			<a class="nav-item" href="drawings.html"> Drawings |</a>
-			
-			<a class="nav-item" href="web-map.html"> Map |</a>
-			
-			<a class="nav-item" href="photos.html"> Photos |</a>
-			
-			<a class="nav-item" href="connect.html"> Connect </a>
-		
-		</div>
-
-
-		<div class="slide-container">
-			
-			<div class="slides" id="intro">
-
+			<!-- Center Content -->
+			<td class="main-content">
 				<h1>~WEBS~</h1>
 
 				<div class="img-gallery">
 				<iframe src ="./assets/audio/cosmogyny_audio.mp3" frameborder="0"></iframe>
-
-				<!-- <p class="click">&#11046;Press play on the media player&#11046;</p> -->
 
 				<blockquote><p><i>"My favorite metaphor is the spider and its web.</p> 
 
@@ -61,32 +42,28 @@
 
 				<p>That's why the therapeutic model sometimes seems too small for me.  Like if a mind is a territory that many beings are inside of, how can two human beings in the sterile room solve the problem that is constituted by a whole web of wild kin?"</i></p></blockquote>
 
-				<p style="text-align: right">--Sophie Strand</p>
+				<p style="text-align: right">--Sophie Strand
+				</p>
 
 				</div>
-				
-			</div>
-		
-		</div>
 
-		<!-- <div class="buttons">
-			<a class="btn-link" href="index.html">
-				<button class="previous"><</button>
-			</a>
-			<a class="btn-link" href="about.html">
-				<button class="next">></button>
-			</a>
-		</div> -->
+			<!-- Next Page -->
+			<td class="side-btn">
+				<button onclick="nextPage()">></button>
+			</td>
+		</tbody>
+	</table>
+</div>
 
-	
-	</div>
-
-	
-<!-- <script type="text/javascript" src="./assets/js/script.js"></script> -->
 <script type="text/javascript">
-	document.body.style.backgroundImage = "none";
+	function previousPage(){
+		window.location.href = "index.html";
+	}
+
+	function nextPage(){
+		window.location.href = "about.html";
+	}
 </script>
 
 </body>
-
 </html>
