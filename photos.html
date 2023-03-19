@@ -1,76 +1,62 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	
 	<meta charset="utf-8">
-	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
 	<title>Cordova Web: Photos</title>
-	
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
 </head>
-
 <body>
-	
-	<div class="site-container">
-		
-		<!-- <a href="index.html" class="spider-web">&#128376;</a> -->
-		
-		<div class="nav">
-			
-			<a class="nav-item" href="index.html">Cordova Web |</a>
 
-			<a class="nav-item" href="spiderweb.html">~Webs~ |</a>
+<div class="site-wrapper">
+	<div class="menu">
+		<a class="menu-item" href="index.html">Cordova Web</a>
+		<a class="menu-item" href="spiderweb.html">~Webs~</a>
+		<a class="menu-item" href="about.html">About</a>
+		<a class="menu-item" href="social-practice.html">Social Practice</a>
+		<a class="menu-item" href="drawings.html">Drawings</a>
+		<a class="menu-item" href="web-map.html">Cordova Web Map</a>
+		<a class="menu-item" id="current-page" href="photos.html">Photos</a>
+		<a class="menu-item" href="connect.html">Connect with Us</a>
+	</div>
 
-			<a class="nav-item" id="current-page" href="about.html"> About |</a>
+	<table border="0" cellpadding="15" cellspacing="3">
+		<tbody>
+			<!-- Previous Page -->
+			<td class="side-btn">
+				<button onclick="previousPage()"><</button>
+			</td>
 
-			<a class="nav-item" href="social-practice.html"> Social Practice |</a>
-
-			<a class="nav-item" href="drawings.html"> Drawings |</a>
-			
-			<a class="nav-item" href="web-map.html"> Map |</a>
-			
-			<a class="nav-item" id="current-page" href="photos.html"> Photos |</a>
-			
-			<a class="nav-item" href="connect.html"> Connect </a>
-		
-		</div>
-
-		
-		<div class="slide-container">	
-		
-			<div class="slides" id="photos">
-				
+			<!-- Center Content -->
+			<td class="main-content">
 				<h1>PHOTOS</h1>
 				
 				<p class="click">Click on polaroid!</p>
 
-				<div class="img-gallery">
+				div class="img-gallery">
 					<img id="imgClickAndChange" src="./assets/images/cordova-web-polaroid-00.jpg">
 				</div>
-			</div>
-		
-		</div>
+			</td>
 
-		<!-- <div class="buttons">
-			<a class="btn-link" href="web-map.html">
-				<button class="previous"><</button>
-			</a>
-			<a class="btn-link" href="connect.html">
-				<button class="next">></button>
-			</a>
-		</div> -->
+			<!-- Next Page -->
+			<td class="side-btn">
+				<button onclick="nextPage()">></button>
+			</td>
+		</tbody>
+	</table>
+</div>
 
-	</div>
-
-	
 <script type="text/javascript" src="./assets/js/script-polaroids.js"></script>
 
+<script type="text/javascript">
+	function previousPage(){
+		window.location.href = "web-map.html";
+	}
+
+	function nextPage(){
+		window.location.href = "connect.html";
+	}
+</script>
 
 </body>
-
 </html>
