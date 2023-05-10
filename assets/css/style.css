@@ -107,3 +107,16 @@ td {
 #current-page {
 	text-decoration: underline;
 }
+
+/*Media Screens*/
+@media only screen and (max-width: 480px){ 
+	#artist-statement{
+		font-size: 79%;
+	}
+}
+
+@media only screen and (max-width: 360px){
+	#artist-statement{
+		font-size: 84%;
+	}
+}
