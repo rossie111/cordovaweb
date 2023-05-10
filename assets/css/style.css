@@ -110,14 +110,14 @@ td {
 
 /*Media Screens*/
 @media only screen and (max-width: 480px){ 
-	#artist-statement{
-		font-size: 79%;
+	.side-btn{
+		display: none;
 	}
 }
 
 @media only screen and (max-width: 360px){
-	#artist-statement{
-		font-size: 84%;
+	.side-btn{
+		display: none;
 	}
 }
 
